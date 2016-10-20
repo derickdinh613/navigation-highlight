@@ -20,13 +20,13 @@ h1 {
 
 header {
   background-color: #ffe500;
-  border: 3px solid #ffe500;
 }
 
 ol {
   text-align: center;
   padding: 0;
   margin: 0;
+  padding-top: 10px;
 }
 
 li {
@@ -77,7 +77,14 @@ font-family: Georgia, serif;
 footer {
   font-family: Georgia, serif;
   text-align: center;
-  color: black;
   background-color: #ffe500;
   padding: .5em;
+  color: #2f2d13;
+}
+
+img {
+  max-width: 100%
+}
+.nav .current {
+  background-color: #cc1465;
 }
